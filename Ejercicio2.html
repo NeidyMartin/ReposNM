@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Formulario de prueba de HTML 5</h1>
+    <form action="../pagina_IDE/index.html" method="get">
+        
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="Nombre" id="nombre" maxlength="50" placeholder="Escriba su nombre" required>
+
+        <br><br>
+
+        <label for="correo">Correo:</label>
+        <input type="text" name="correo" id="correo" maxlength="50" placeholder="Escriba su coreo electrónico" required>
+
+        <br><br>
+
+        <label for="url">URL:</label>
+        <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https//.*" size="30" required>
+
+        <br><br>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" name="fecha" id="fecha">
+
+        <br><br>
+
+        <label for="hora">Hora:</label>
+        <input type="time" name="hora" id="hora">
+
+        <br><br>
+
+        <label for="fecha-hora">Fecha-Hora:</label>
+        <input type="datetime-local" nombre="fecha_hora" id="fecha_hora">
+
+        <br><br>
+
+        <label for="mes">Mes:</label>
+        <input type="month" name="month" id="month">
+
+        <br><br>
+
+        <label for="Semana">Semana.</label>
+        <input type="week" name="semana" id="semana">
+
+        <br><br>
+
+        <label for="number">Número:</label>
+        <input type="number" name="tentecles" id="tentacles" min="-10" max="10">
+
+        <br><br>
+
+        <label for="telefono">Telefóno:</label>
+        <input type="phone" name="phene" id="phone" pattern="(0-9)(3)-(0-9)(3)-(0-9)(4)" required>
+
+        <br><br>
+
+        <label for="site-search">Search the site:</label>
+        <input type="search" id="site-search" name="q">
+        
+        <button>Search</button>
+
+        <br><br>
+
+        <div>
+            <label for="head">Color favorito:</label>
+            <input type="color" id="color" name="color"
+                value="#e66465">
+        </div>
+
+        
+        <br><br>
+
+        <Input type="submit" value="Enviar">
+
+    </form>
+
+    <br><br>
+
+    
+</body>
+</html>
