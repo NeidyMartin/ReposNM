@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+        <form action="../pagina_IDE/index.html" method="get">
+            <label for="nombre">Nombre::</label>
+            <input type="text" name="Nombre" id="nombre" maxlength="50" placeholder="Escriba su nombre">
+
+            <br><br>
+
+            <label for="apellido">Apellidos:</label>
+            <input type="text" name="apellido" id="apellido" maxlength="50" placeholder="Escriba su apellido">
+
+            <br><br>
+
+            <label for="Radio">Sexo:</label>
+            <input type="radio" name="Género" id="generoM" value="M"> Masculino
+            <input type="radio" name="Género" id="generoF" value="F" checked> Femenino
+
+            <br><br>
+
+            <label for="correo">Correo:</label>
+            <input type="text" name="apellido" id="apellido" maxlength="50" placeholder="Escriba su coreo electrónico">
+
+            <br><br>
+
+            <label for="poblacion">Población:</label>
+            <select name="poblacion" id="poblacion">¨Poblacion
+                <option value="Bar">Barranquilla</option>
+                <option value="Bog">Bogotá</option>
+                <option value="Buc">Bucaramanga</option>
+                <option value="Cal">Cali</option>
+                <option value="Car">Cartagena</option>
+                <option value="Med">Medellín</option>
+                <option value="Sta">Santa Marta</option>
+                <option value="Tun">Tunja</option>
+                <option value="Val">Valledupar</option>
+                <option value="Vil">Villavicencio</option>
+            </select>
+
+            <br><br>
+
+            <label for="descripcion">Descripción:</label>
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+
+            <br><br>
+
+            <input type="radio" name="novedad" id="novedad" value="si"> Deseo recibir información sobre novedades y ofertas.
+            <br><br>
+            <input type="radio" name="datos" id="datos" value="si"> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre portección de datos.
+
+            <br><br>
+           
+            <Input type="submit" value="Enviar">
+    
+</body>
+</html>
